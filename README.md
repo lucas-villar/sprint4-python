@@ -40,13 +40,13 @@ O sistema tem como objetivo melhorar a **organização dos cadastros e prontuár
 ```mermaid
 flowchart TD
     Start[Início] --> Menu[Menu Principal]
-    Menu --> Cadastro[Cadastro de Paciente]
-    Menu --> Buscar[Buscar Paciente]
-    Menu --> NovoProntuario[Novo Prontuário]
-    Menu --> BuscarProntuario[Buscar Prontuário]
-    Menu --> ExcluirProntuario[Excluir Prontuário]
-    Menu --> ExcluirCadastro[Excluir Paciente]
-    NovoProntuario --> AtualizaJSON[Atualiza prontuarios.json]
-    ExcluirCadastro --> RemoveTXT[Remove arquivos .txt]
-    RemoveTXT --> AtualizaJSON2[Atualiza prontuarios.json]
+    Menu --> Cadastro[Menu de Cadastro]
+    Menu --> Prontuários[Menu de Prontuários]
+    Cadastro --> Cadastro[Cadastro de Paciente]
+    Cadastro --> Buscar[Buscar Paciente]
+    Cadastro --> Editar[Editar Cadastro]
+    Cadastro --> ExcluirCadastro[Excluir Paciente]
+    Prontuários --> NovoProntuario[Novo Prontuário]
+    Prontuários --> BuscarProntuario[Buscar Prontuário]
+    Prontuários --> ExcluirProntuario[Excluir Prontuário]
 ```
