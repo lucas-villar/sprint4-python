@@ -30,22 +30,13 @@ O sistema tem como objetivo melhorar a **organização dos cadastros e prontuár
 
 ## 💡 Tecnologias Utilizadas
 
-- Python 3.x
+- Python 3.11
 - Módulos nativos: `os`, `json`, `datetime`, `time`
 
 ---
+## 👨‍💻 Integrantes do Projeto
 
-## 🔄 Fluxo de Funcionamento (Diagrama)
-
-```mermaid
-flowchart TD
-    Menu Principal --> Menu de Cadastro
-    Menu Principal --> Menu de Prontuários
-    Menu de Cadastro --> Cadastro[Cadastro de Paciente]
-    Menu de Cadastro --> Buscar[Buscar Paciente]
-    Menu de Cadastro --> Editar[Editar Cadastro]
-    Menu de Cadastro --> ExcluirCadastro[Excluir Paciente]
-    Menu de Prontuários --> NovoProntuario[Novo Prontuário]
-    Menu de Prontuários --> BuscarProntuario[Buscar Prontuário]
-    Menu de Prontuários --> ExcluirProntuario[Excluir Prontuário]
-```
+- **Enzo Galhardo** - RM561001
+- **Kauan Diogo da Paz Silva** - RM560727
+- **Leonardo Luiz Jardim Queijo** - RM559842
+- **Lucas de Almeida Villar** - RM560005
